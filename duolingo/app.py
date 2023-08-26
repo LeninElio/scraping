@@ -26,5 +26,5 @@ def obtener_datos(username=None, correo=None):
     return {'message': 'Error al obtener los datos'}
 
 
-datos = obtener_datos(username='leninelio')
+datos = obtener_datos(username='username')
 print(datos)
